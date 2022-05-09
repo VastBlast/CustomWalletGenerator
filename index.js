@@ -1,7 +1,7 @@
 const workerpool = require('workerpool');
 
 const pool = workerpool.pool(__dirname + '/worker.js', {
-    maxWorkers: 11
+    maxWorkers: undefined // set it here or will use set default based on CPU count
 });
 
 
