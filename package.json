@@ -1,13 +1,20 @@
 {
   "name": "customwalletgenerator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate custom ethereum-based wallet addresses based on set conditions",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Ethereum",
+    "Wallet",
+    "Generator",
+    "Custom",
+    "Eth",
+    "Bsc",
+    "bep20",
+    "erc20",
+    "bnb"
+  ],
+  "author": "VastBlast",
   "license": "ISC",
   "dependencies": {
     "ethers": "^5.6.5",
